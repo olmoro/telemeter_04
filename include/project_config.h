@@ -148,7 +148,7 @@
  * Раскомментируйте CONFIG_WIFI_SSID и CONFIG_WIFI_PASS, чтобы отключить автоматическое переключение между wifi-сетями
  * */
 #define CONFIG_WIFI_SSID "HUAWEI-a6mB"
-#define CONFIG_WIFI_PASS "rmbDHxYK"
+#define CONFIG_WIFI_PASS ".........."
 
 /** 
  * EN: Multi-network mode
@@ -347,11 +347,11 @@
 #define CONFIG_TELEGRAM_ENABLE 1
 // EN: Telegram API bot token
 // RU: Токен бота API Telegram
-#define CONFIG_TELEGRAM_TOKEN "7731157620:AAFO8eSNRMuGyqeMp5jPhU5mlQZpr_iHgoQ"
+#define CONFIG_TELEGRAM_TOKEN "000000000000000:00000000000000000000000000000"
 // EN: Chat or group ID
 // RU: Идентификатор чата или группы
-#define CONFIG_TELEGRAM_CHAT_ID_MAIN     "-4568554589"
-#define CONFIG_TELEGRAM_CHAT_ID_SERVICE  "-4539244144"
+#define CONFIG_TELEGRAM_CHAT_ID_MAIN     "-000000000001"
+#define CONFIG_TELEGRAM_CHAT_ID_SERVICE  "-0000000002"
 #define CONFIG_TELEGRAM_CHAT_ID_PARAMS   CONFIG_TELEGRAM_CHAT_ID_SERVICE
 #define CONFIG_TELEGRAM_CHAT_ID_SECURITY CONFIG_TELEGRAM_CHAT_ID_MAIN
 // EN: Send message header (device name, see CONFIG_TELEGRAM_DEVICE)
